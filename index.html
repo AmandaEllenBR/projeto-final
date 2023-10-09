@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauty Company</title>
+    <link rel="stylesheet" href="assets/css/style2.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+
+            <div class="flex">
+                
+                <div id="interface">
+                    <div class="logo"><!--brand-->
+                        <a href="#">
+                            <img src="./assets/img/unnamed-removebg-preview.png" alt="logo da Amanda" id="Imagemamanda">
+                        </a>
+                    </div><!--logo-->
+
+                <nav class="nav" id="nav">
+                            <ul class="nav_menu">
+                                <li class="nav_item"><a href="#" class="nav_link active-link">Ínicio</a></li>
+                                <li class="nav_item"><a href="#about" class="nav_link">Sobre Nós</a></li>
+                                <li class="nav_item"><a href="http://127.0.0.1:5500/projeto%20final/cadastro.html" class="nav_link">Cadastro</a></li>
+                                <li class="nav_item"><a href="#tratamento-cabelo" class="nav_link">Tratamento Capilar</a></li>
+                                <li class="nav_item"><a href="#bem-estar" class="nav_link">Bem-Estar Completo</a></li>
+                                <li class="nav_item"><a href="#produtos" class="nav_link">Produtos</a></li>
+                                <li class="nav_item"><a href="#" class="nav_link">Contatos</a></li>
+            
+                            </ul>
+                               
+                        </div>
+                </nav>
+
+                <div class="nav_toggle" id="nav-toggle">
+                    <i class='bx bx-menu' ></i>
+                </div>
+                
+            </div>
+
+        </div>
+    </header>
+
+ 
+    <main>
+        <section class="hero">
+            <div class="content">
+                <div class="row">
+                    <div class="hero__content">
+                        <p>Venha conhecer nosso cantinho e aproveite para agendar sua data.</p>
+                        <a href="http://127.0.0.1:5500/projeto%20final/cadastro.html" class="btn btn_outline"><i class='bx bxl-whatsapp'></i>agende seu horário</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    
+    
+    <section class="feedback" id="feedback">
+        <br>
+        <div id="feed">
+            <h3>Avalie nosso site</h3>
+            <p>Avaliação:</p>
+            <div class="stars" id="star1">★</div>
+            <div class="stars" id="star2">★</div>
+            <div class="stars" id="star3">★</div>
+            <div class="stars" id="star4">★</div>
+            <div class="stars" id="star5">★</div>
+            <div>
+                <div class="container-feed"> 
+                    <div>
+                    <p class="p-feed">Seu nome:</p>
+                    <input type="text" id="lname"><br>
+                    
+                    <p class="p-feed">Seu e-mail:</p>
+                    <input type="email" id="lemail"><br>
+                    <br>
+                </div>
+                <div>
+                    <p class="p-feed">Comentário:</p>
+                    <textarea id="comment" rows="4" cols="50"></textarea><br>
+                </div>
+            </div>
+            <button onclick="submitRating()">Enviar Avaliação</button>
+            <br>
+            <br>
+            
+            <div id="ratings"></div>
+        </div>
+    </section>
+    
+    
+    <div class="map ">
+        <H2>Endereço:</H2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d479.8345642577908!2d-48.06380645440989!3d-15.821002066325788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a3320f029f423%3A0xa6a65f977c73793e!2sEdificio%20Marilia!5e0!3m2!1spt-BR!2sbr!4v1696602333983!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    
+    <footer class="footer" id="contact">
+        <div class="footer__list section container grid">
+            <div class="footer__data">
+                <h1><a href="#"><img src="assests/img/logo.svg" alt=""></a></h1>
+                <div class="footer__data-social">
+                    <a href=""><i class='bx bxl-facebook social__icon'></i></a>
+                    <a href=""><i class='bx bxl-instagram social__icon' ></i></a>
+                    <a href=""><i class='bx bxl-whatsapp social__icon' ></i></a>
+                </div>
+            </div>
+            <br>
+
+
+                <div class="footer__data">
+                    <h2>nosso horario</h2>
+                    <p>Segunda á Sabado<br>das 08:00 as 19:00</p>
+                </div>
+                <div class="footer__data">
+                    <h2>Contato</h2>
+                    <p>(61) </p>
+                    <p>(61) 4002 8922</p>
+                </div>
+            </div>
+        </footer>
+        <footer>
+            <p class="pp"><small>Beauty Company 2023 &copy;. Desenvolvido por Amanda Ellen. </small></p>
+        </footer>
+        
+
+
+        
+
+
+
+        <script src="assets/js/script2.js"></script>
+</body>
+</html>
